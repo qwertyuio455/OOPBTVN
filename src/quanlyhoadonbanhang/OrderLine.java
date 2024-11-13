@@ -14,7 +14,7 @@ public class OrderLine {
     private double price;  
     private String currency;  
 
-    public OrderLine(String item, int quantity, double price, String currency) {
+    public OrderLine(String name, int quantity, double price, String currency) {
         this.name = name;
         this.quantity = quantity;
         this.price = price;
